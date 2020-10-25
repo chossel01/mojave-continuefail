@@ -1,0 +1,126 @@
+Oct 25 14:58:27 localhost opendirectoryd[186]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 196, PROC: sandboxd
+Oct 25 14:58:27 localhost opendirectoryd[186]: [session] ODQueryCreateWithNode request, NodeID: 200EF22F-D234-4D18-86DB-24B2F973818D, RecordType(s): dsRecTypeStandard:Users, Attribute: dsAttrTypeStandard:UniqueID, MatchType: GreaterThan, Equality: Number, Value(s): 500, Requested Attributes: dsAttrTypeStandard:NFSHomeDirectory,dsAttrTypeStandard:GeneratedUID,dsAttrTypeStandard:RecordName,dsAttrTypeStandard:UniqueID,dsAttrTypeStandard:AppleMetaRecordName,dsAttrTypeStandard:RecordType,dsAttrTypeStandard:AppleMetaNodeLocation, Max Results: 2147483647
+Oct 25 14:58:27 localhost opendirectoryd[186]: [session] queuing request to connection - B558D8A3-412D-4853-A1A7-D184307A87A7 - CFBundle 0x7fbd88d4f2e0 </System/Library/OpenDirectory/Modules/PlistFile.bundle> (bundle, loaded)
+Oct 25 14:58:28 localhost powerd[173]: powerd process is started
+Oct 25 14:58:30 localhost opendirectoryd[186]: [session] Received a network change notification
+Oct 25 14:58:30 localhost opendirectoryd[186]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 187, PROC: apsd
+Oct 25 14:58:30 localhost opendirectoryd[186]: [session] ODNodeCreateWithNameAndOptions request, SessionID: 00000000-0000-0000-0000-000000000000, Name: /Search, Options: 0x0
+Oct 25 14:58:30 localhost opendirectoryd[186]: [session] ODNodeCreateWithNameAndOptions failed with result 2000
+Oct 25 14:58:31 localhost opendirectoryd[186]: [session] ODQueryCreateWithNode completed
+Oct 25 14:58:31 localhost opendirectoryd[186]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 196, PROC: sandboxd
+Oct 25 14:58:31 localhost opendirectoryd[186]: [session] ODNodeRelease request, NodeID: 200EF22F-D234-4D18-86DB-24B2F973818D
+Oct 25 14:58:31 localhost opendirectoryd[186]: [session] ODNodeRelease completed
+Oct 25 14:58:33 localhost Installer Progress[181]: Progress UI App Starting
+Oct 25 14:58:34 localhost opendirectoryd[186]: [session] Processing a network change notification
+Oct 25 14:58:35 localhost Unknown[536]: kern.boottime: { sec = 1603637894, usec = 0 } Sun Oct 25 14:58:14 2020
+Oct 25 14:58:35 MacBook-Pro Unknown[547]: Launching the Language Chooser for an OS Install
+Oct 25 14:58:35 MacBook-Pro bspowerassertiontool[542]: Tool exited successfully (0).
+Oct 25 14:58:36 MacBook-Pro launchprogresswindow[545]: ISAP: Show progress UI called
+Oct 25 14:58:49 MacBook-Pro opendirectoryd[186]: [session] PID: 187, Client: 'apsd', exited with 0 session(s), 0 node(s) and 0 active request(s)
+Oct 25 14:59:04 MacBook-Pro powerd[173]: Display is turned on
+Oct 25 14:59:07 MacBook-Pro opendirectoryd[186]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 563, PROC: apsd
+Oct 25 14:59:07 MacBook-Pro opendirectoryd[186]: [session] ODNodeCreateWithNameAndOptions request, SessionID: 00000000-0000-0000-0000-000000000000, Name: /Search, Options: 0x0
+Oct 25 14:59:07 MacBook-Pro opendirectoryd[186]: [session] ODNodeCreateWithNameAndOptions failed with result 2000
+Oct 25 14:59:08 MacBook-Pro Installer Progress[181]: IASGetCurrentInstallPhaseList: Unable to get phases
+Oct 25 14:59:08 MacBook-Pro Installer Progress[181]: IASGetCurrentInstallPhase: Unable to get the current phase name
+Oct 25 14:59:08 MacBook-Pro Installer Progress[181]: phaseName = (null)
+Oct 25 14:59:08 MacBook-Pro Installer Progress[181]: _currentPhase = "(null)", _phases = (null)
+Oct 25 14:59:08 MacBook-Pro Installer Progress[181]: IASGetCurrentInstallPhaseList: Unable to get phases
+Oct 25 14:59:08 MacBook-Pro Installer Progress[181]: IASGetCurrentInstallPhase: Unable to get the current phase name
+Oct 25 14:59:08 MacBook-Pro Installer Progress[181]: phaseName = (null)
+Oct 25 14:59:08 MacBook-Pro Installer Progress[181]: _currentPhase = "(null)", _phases = (null)
+Oct 25 14:59:08 MacBook-Pro Installer Progress[181]: Progress app is loading…
+Oct 25 14:59:08 MacBook-Pro Installer Progress[181]: Progress app is running with no progress set
+Oct 25 14:59:08 MacBook-Pro Installer Progress[181]: This is the Install Environment, adding Boot 1 and Language Chooser phase
+Oct 25 14:59:08 MacBook-Pro Installer Progress[181]: startingPercentage = 0.0
+Oct 25 14:59:08 MacBook-Pro Installer Progress[181]: IASSetCurrentInstallPhaseList: phases set to (
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "Boot 1";
+	        InstallPhasePercentageKey = 0;
+	    }
+	)
+Oct 25 14:59:08 MacBook-Pro Installer Progress[181]: IASSetCurrentInstallPhase: Current phase name set to "Boot 1"
+Oct 25 14:59:08 MacBook-Pro Installer Progress[181]: IASSetCurrentInstallPhaseList: phases set to (
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "Boot 1";
+	        InstallPhasePercentageKey = 0;
+	    },
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "Language Chooser";
+	        InstallPhasePercentageKey = 100;
+	    }
+	)
+Oct 25 14:59:08 MacBook-Pro Installer Progress[181]: Progress app is running…
+Oct 25 14:59:08 MacBook-Pro Installer Progress[181]: Showing Progress UI
+Oct 25 14:59:08 MacBook-Pro Installer Progress[181]: There are 0 window(s) and 1 display(s), 1 window(s) will be added
+Oct 25 14:59:09 MacBook-Pro Installer Progress[181]: This machine is not in the Light Gray Background Machines List, setting to Black
+Oct 25 14:59:09 MacBook-Pro Installer Progress[181]: Created a window at {{0, 0}, {1920, 1080}}
+Oct 25 14:59:10 MacBook-Pro Language Chooser[548]: Using progress phase: Language Chooser
+Oct 25 14:59:10 MacBook-Pro Unknown[549]: 2020-10-25 14:59:10.922 Language Chooser[548:3271] NSDisabledCharacterPaletteMenuItem=YES
+Oct 25 14:59:10 MacBook-Pro Unknown[549]: 2020-10-25 14:59:10.936 Language Chooser[548:3271] TISFileInterrogator updateSystemInputSources false but old data invalid: currentCacheHeaderPtr nonNULL? 0, ->cacheFormatVersion 0, ->magicCookie 00000000, inputSourceTableCountSys 0
+Oct 25 14:59:10 MacBook-Pro Installer Progress[181]: Status is ""
+Oct 25 14:59:10 MacBook-Pro Installer Progress[181]: Alternate status is ""
+Oct 25 14:59:10 MacBook-Pro Unknown[549]: Keyboard Layouts: duplicate keyboard layout identifier -14934.
+Oct 25 14:59:10 MacBook-Pro Unknown[549]: Keyboard Layouts: keyboard layout identifier -14934 has been replaced with -28673.
+Oct 25 14:59:11 MacBook-Pro Language Chooser[548]: Setup: Factory cable attached: 0
+Oct 25 14:59:11 MacBook-Pro Unknown[549]: Setting boot completed.
+Oct 25 14:59:11 MacBook-Pro Language Chooser[548]: Could not read prev-lang:kbd to set keyboard.
+Oct 25 14:59:11 MacBook-Pro Unknown[549]: 2020-10-25 14:59:11.312 Language Chooser[548:3271] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=260 "The file “com.apple.ViewBridge.plist” couldn’t be opened because there is no such file." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x7fa91b577cc0 {Error Domain=NSPOSIXErrorDomain Code=2 "No such file or directory"}}
+Oct 25 14:59:11 MacBook-Pro Installer Progress[181]: Setting window alpha values to 0.0
+Oct 25 14:59:11 MacBook-Pro Installer Progress[181]: Ordering windows front
+Oct 25 14:59:11 MacBook-Pro Installer Progress[181]: Ordering windows front
+Oct 25 14:59:11 MacBook-Pro Installer Progress[181]: Setting window alpha values to 1.0
+Oct 25 14:59:11 MacBook-Pro Language Chooser[548]: Found primary language hint ""
+Oct 25 14:59:11 MacBook-Pro Language Chooser[548]: Could not save the language prefrences.
+Oct 25 14:59:11 MacBook-Pro Language Chooser[548]: Launching the Springboard using language code ""
+Oct 25 14:59:11 MacBook-Pro Installer Progress[181]: IASSetCurrentInstallPhase: Current phase name set to "Language Chooser"
+Oct 25 14:59:12 MacBook-Pro OSIESpringboard[570]: Creating connection
+Oct 25 14:59:12 MacBook-Pro OSIESpringboard[570]: Connection = 0x7ff21cf153c0, callers = (
+	    "<IASUPCaller: 0x7ff21cd18340>"
+	)
+Oct 25 14:59:12 MacBook-Pro OSIESpringboard[570]: Registering the connection
+Oct 25 14:59:12 MacBook-Pro OSIESpringboard[570]: client 0x7ff21cf34480: phaseName = Install Springboard
+Oct 25 14:59:12 MacBook-Pro OSIESpringboard[570]: client 0x7ff21cf34480: phaseName = "Install Springboard"
+Oct 25 14:59:12 MacBook-Pro OSIESpringboard[570]: ISAP: hide progress UI called
+Oct 25 14:59:12 MacBook-Pro OSIESpringboard[570]: ISAP: hide progress UI called
+Oct 25 14:59:12 MacBook-Pro OSIESpringboard[570]: client 0x7ff21cf34480: phaseName = Install Springboard
+Oct 25 14:59:12 MacBook-Pro OSIESpringboard[570]: Releasing Connection
+Oct 25 14:59:12 MacBook-Pro OSIESpringboard[570]: Can not connect to /var/run/systemkeychaincheck.socket: No such file or directory
+Oct 25 14:59:12 MacBook-Pro OSIESpringboard[570]: Failed to unlock login keychain.
+Oct 25 14:59:12 MacBook-Pro Language Chooser[548]: Not hiding Language Chooser in window counter
+Oct 25 14:59:12 MacBook-Pro Installer Progress[181]: Hiding Progress UI
+Oct 25 14:59:12 MacBook-Pro Installer Progress[181]: Setting window alpha values to 0.0
+Oct 25 14:59:12 MacBook-Pro Unknown[549]: 2020-10-25 14:59:12.239 macOS Utilities[570:3809] NSDisabledCharacterPaletteMenuItem=YES
+Oct 25 14:59:12 MacBook-Pro Unknown[549]: 2020-10-25 14:59:12.253 macOS Utilities[570:3809] TISFileInterrogator updateSystemInputSources false but old data invalid: currentCacheHeaderPtr nonNULL? 0, ->cacheFormatVersion 0, ->magicCookie 00000000, inputSourceTableCountSys 0
+Oct 25 14:59:12 MacBook-Pro Unknown[549]: Keyboard Layouts: duplicate keyboard layout identifier -14934.
+Oct 25 14:59:12 MacBook-Pro Unknown[549]: Keyboard Layouts: keyboard layout identifier -14934 has been replaced with -28673.
+Oct 25 14:59:12 MacBook-Pro Installer Progress[181]: Ordering windows out
+Oct 25 14:59:12 MacBook-Pro Unknown[549]: 2020-10-25 14:59:12.572 macOS Utilities[570:3809] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=260 "The file “com.apple.ViewBridge.plist” couldn’t be opened because there is no such file." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x7ff224208820 {Error Domain=NSPOSIXErrorDomain Code=2 "No such file or directory"}}
+Oct 25 14:59:14 MacBook-Pro powerd[173]: Assertion Created. Type:UserIsActive Name:'com.apple.iohideventsystem.queue.tickle.4294968220.11' Id:0x90000800a Process:hidd [System: DeclUser kDisp]
+Oct 25 14:59:15 MacBook-Pro Language Chooser[548]: ISAP: Done with Phase "Language Chooser"
+Oct 25 14:59:15 MacBook-Pro Installer Progress[181]: Done with phase = "Language Chooser"
+Oct 25 14:59:15 MacBook-Pro Installer Progress[181]: IASClearInstallProgress: Clearing Registry
+Oct 25 14:59:15 MacBook-Pro Installer Progress[181]: Ending progress UI via 100% progress
+Oct 25 14:59:15 MacBook-Pro Installer Progress[181]: Setting window alpha values to 0.0
+Oct 25 14:59:15 MacBook-Pro Installer Progress[181]: Ordering windows out
+Oct 25 15:01:40 MacBook-Pro Unknown[549]: 2020-10-25 15:01:40.410 macOS Utilities[570:3809] NSSoftLinking - The Quartz framework's library couldn't be loaded from /System/Library/Frameworks/Quartz.framework/Versions/A/Quartz.
+Oct 25 15:02:18 MacBook-Pro Unknown[549]: 2020-10-25 15:02 macOS Utilities[570] (FSEvents.framework) FSEventStreamStart: ERROR: FSEvents_connect() => Unknown service name (1102)
+Oct 25 15:02:18 MacBook-Pro OSIESpringboard[570]: Folder Manager is being asked to create a folder (down) while running as uid 0
+Oct 25 15:02:18 MacBook-Pro OSIESpringboard[570]: Folder Manager is being asked to create a folder (down) while running as uid 0
+Oct 25 15:02:18 MacBook-Pro opendirectoryd[186]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 570, PROC: macOS Utilities
+Oct 25 15:02:18 MacBook-Pro opendirectoryd[186]: [session] ODNodeCreateWithNameAndOptions request, SessionID: 00000000-0000-0000-0000-000000000000, Name: /Local/Default, Options: 0x0
+Oct 25 15:02:18 MacBook-Pro opendirectoryd[186]: [session] node assigned UUID - 12020D15-14CE-4954-983C-E6B9D40D3B28
+Oct 25 15:02:18 MacBook-Pro opendirectoryd[186]: [session] ODNodeCreateWithNameAndOptions completed
+Oct 25 15:02:18 MacBook-Pro opendirectoryd[186]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 570, PROC: macOS Utilities
+Oct 25 15:02:18 MacBook-Pro opendirectoryd[186]: [session] ODQueryCreateWithNode request, NodeID: 12020D15-14CE-4954-983C-E6B9D40D3B28, RecordType(s): dsRecTypeStandard:SharePoints, Attribute: dsAttrTypeStandard:RecordName, MatchType: Any, Equality: CaseExact, Value(s): dsRecordsAll, Requested Attributes: afp_use_parent_privs,dsAttrTypeStandard:GeneratedUID,afp_name,smb_inherit_permissions,dsAttrTypeStandard:AppleMetaNodeLocation,afp_shared,dsAttrTypeStandard:RecordType,sharepoint_version,smb_directorymask,smb_name,directory_path,dsAttrTypeStandard:RecordName,afp_use_parent_owner,ftp_shared,smb_shared,smb_guestaccess,smb_oplocks,afp_guestaccess,dsAttrTypeStandard:AppleMetaRecordName,ftp_guestaccess,smb_strictlocking,ftp_name,sharepoint_account_uuid,smb_createmask,sharepoint_group_id, Max Results: 2147483647
+Oct 25 15:02:18 MacBook-Pro opendirectoryd[186]: [session] queuing request to connection - B558D8A3-412D-4853-A1A7-D184307A87A7 - CFBundle 0x7fbd88d4f2e0 </System/Library/OpenDirectory/Modules/PlistFile.bundle> (bundle, loaded)
+Oct 25 15:02:18 MacBook-Pro opendirectoryd[186]: [session] ODQueryCreateWithNode completed
+Oct 25 15:02:18 MacBook-Pro Unknown[549]: 2020-10-25 15:02:18.777 macOS Utilities[570:3809] NSSoftLinking - The Quartz framework's library couldn't be loaded from /System/Library/Frameworks/Quartz.framework/Versions/A/Quartz.
+Oct 25 15:02:18 MacBook-Pro OSIESpringboard[570]: Folder Manager is being asked to create a folder (down) while running as uid 0
+Oct 25 15:02:18 MacBook-Pro OSIESpringboard[570]: Folder Manager is being asked to create a folder (down) while running as uid 0
+Oct 25 15:02:18 MacBook-Pro Unknown[549]: 2020-10-25 15:02 macOS Utilities[570] (FSEvents.framework) FSEventStreamStart: ERROR: FSEvents_connect() => Unknown service name (1102)
+Oct 25 15:02:24 MacBook-Pro OSIESpringboard[570]: Folder Manager is being asked to create a folder (down) while running as uid 0
+Oct 25 15:02:24 MacBook-Pro OSIESpringboard[570]: Folder Manager is being asked to create a folder (down) while running as uid 0
